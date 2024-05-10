@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.9" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.38" />
+    <style>
+      html {
+        background: var(--bg-color, #fff);
+      }
+
+      html[data-theme="dark"] {
+        background: var(--bg-color, #1d1e1f);
+      }
+
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <meta property="og:url" content="https://mister-hope.github.io/demo/disable.html"><meta property="og:site_name" content="博客演示"><meta property="og:title" content="布局与功能禁用"><meta property="og:description" content="你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。"><meta property="og:type" content="article"><meta property="og:locale" content="zh-CN"><meta property="og:updated_time" content="2024-05-10T15:39:21.000Z"><meta property="article:author" content="Mr.Hope"><meta property="article:tag" content="禁用"><meta property="article:modified_time" content="2024-05-10T15:39:21.000Z"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"布局与功能禁用","image":[""],"dateModified":"2024-05-10T15:39:21.000Z","author":[{"@type":"Person","name":"Mr.Hope","url":"https://mister-hope.com"}]}</script><title>布局与功能禁用 | 博客演示</title><meta name="description" content="你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。">
+    <link rel="preload" href="/assets/style-C6da8pYf.css" as="style"><link rel="stylesheet" href="/assets/style-C6da8pYf.css">
+    <link rel="modulepreload" href="/assets/app-D2g2uc1y.js"><link rel="modulepreload" href="/assets/disable.html-BPhW2Ew4.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper-DlAUqK2U.js">
+    <link rel="prefetch" href="/assets/index.html-CSk7u6qF.js" as="script"><link rel="prefetch" href="/assets/intro.html-D6xwNSMQ.js" as="script"><link rel="prefetch" href="/assets/index.html-BLaCrqZq.js" as="script"><link rel="prefetch" href="/assets/encrypt.html-CXjRxvtR.js" as="script"><link rel="prefetch" href="/assets/layout.html-MUEzLC8v.js" as="script"><link rel="prefetch" href="/assets/markdown.html-D0EEYw0O.js" as="script"><link rel="prefetch" href="/assets/page.html-Cv97b0s9.js" as="script"><link rel="prefetch" href="/assets/cherry.html-DNgJEMpH.js" as="script"><link rel="prefetch" href="/assets/dragonfruit.html-qTWdql8a.js" as="script"><link rel="prefetch" href="/assets/strawberry.html-BWT5CSXn.js" as="script"><link rel="prefetch" href="/assets/tomato.html-BNIhXfzk.js" as="script"><link rel="prefetch" href="/assets/1.html-BjQrBZID.js" as="script"><link rel="prefetch" href="/assets/2.html-DSOdyB-Q.js" as="script"><link rel="prefetch" href="/assets/3.html-DLdqNokd.js" as="script"><link rel="prefetch" href="/assets/4.html-e1e5_3Vz.js" as="script"><link rel="prefetch" href="/assets/1.html-DDIfCH7i.js" as="script"><link rel="prefetch" href="/assets/2.html-nQnpwlXx.js" as="script"><link rel="prefetch" href="/assets/3.html-RwIIeTJT.js" as="script"><link rel="prefetch" href="/assets/4.html-TZg8inMw.js" as="script"><link rel="prefetch" href="/assets/404.html-C3aO0jCQ.js" as="script"><link rel="prefetch" href="/assets/index.html-BpZuYZLo.js" as="script"><link rel="prefetch" href="/assets/index.html-BF5ZFiFR.js" as="script"><link rel="prefetch" href="/assets/index.html-BEvTY4ur.js" as="script"><link rel="prefetch" href="/assets/index.html-Bs5r86RR.js" as="script"><link rel="prefetch" href="/assets/index.html-1MFkv8zy.js" as="script"><link rel="prefetch" href="/assets/index.html-U5b2m8Ea.js" as="script"><link rel="prefetch" href="/assets/index.html-CHAeTrL-.js" as="script"><link rel="prefetch" href="/assets/index.html-BQxynAdN.js" as="script"><link rel="prefetch" href="/assets/index.html-ieWhAv78.js" as="script"><link rel="prefetch" href="/assets/index.html-DLCO2q29.js" as="script"><link rel="prefetch" href="/assets/index.html-iHOj5arg.js" as="script"><link rel="prefetch" href="/assets/index.html-QB7gpb9i.js" as="script"><link rel="prefetch" href="/assets/index.html-6f2Ush9g.js" as="script"><link rel="prefetch" href="/assets/index.html-tB9ls0c4.js" as="script"><link rel="prefetch" href="/assets/index.html-_k1pC5Se.js" as="script"><link rel="prefetch" href="/assets/index.html-uPwZ1UzU.js" as="script"><link rel="prefetch" href="/assets/index.html-Pv-j7Xi7.js" as="script"><link rel="prefetch" href="/assets/index.html-CQcHFP3l.js" as="script"><link rel="prefetch" href="/assets/index.html-DaFZ0dYf.js" as="script"><link rel="prefetch" href="/assets/index.html-ZfkQgZhN.js" as="script"><link rel="prefetch" href="/assets/index.html-CFLv1iNh.js" as="script"><link rel="prefetch" href="/assets/index.html-BPnyBnkD.js" as="script"><link rel="prefetch" href="/assets/index.html-DEMxfr7K.js" as="script"><link rel="prefetch" href="/assets/index.html-BwIOmT4U.js" as="script"><link rel="prefetch" href="/assets/index.html-B0xGF9ga.js" as="script"><link rel="prefetch" href="/assets/index.html-B1Hpv3S-.js" as="script"><link rel="prefetch" href="/assets/index.html-Bmt20TVS.js" as="script"><link rel="prefetch" href="/assets/index.html-CAtB-NKg.js" as="script"><link rel="prefetch" href="/assets/index.html-DzTOCZwY.js" as="script"><link rel="prefetch" href="/assets/index.html-DrDcKHzr.js" as="script"><link rel="prefetch" href="/assets/photoswipe.esm-SzV8tJDW.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">跳至主要內容</a><!--]--><div class="theme-container no-navbar no-sidebar has-toc"><!----><!----><div class="toggle-sidebar-wrapper"><span class="arrow start"></span></div><aside id="sidebar" class="vp-sidebar"><!--[--><!----><!--]--><ul class="vp-sidebar-links"></ul><!--[--><!----><!--]--></aside><!--[--><main id="main-content" class="vp-page"><!--[--><!--[--><!----><!--]--><!----><nav class="vp-breadcrumb disable"></nav><div class="vp-page-title"><h1><span class="font-icon icon fa-fw fa-sm fas fa-gears" style=""></span>布局与功能禁用</h1><!----><hr></div><!----><!--[--><!----><!--]--><div class="theme-hope-content"><p>你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。</p><!-- more --><p>本页面就是一个示例，禁用了如下功能:</p><ul><li>导航栏</li><li>侧边栏</li><li>路径导航</li><li>页面信息</li><li>贡献者</li><li>编辑此页链接</li><li>更新时间</li><li>上一篇/下一篇 链接</li><li>评论</li><li>页脚</li><li>返回顶部按钮</li></ul></div><!--[--><!----><!--]--><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><!----><!----></div></footer><!----><!----><!--[--><!----><!--]--><!--]--></main><!--]--><!----></div><!--]--><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-D2g2uc1y.js" defer></script>
+  </body>
+</html>
