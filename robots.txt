@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://zhf521.github.io/MyBlog/MyBlog/sitemap.xml
+Sitemap: https://zhf521.github.io/MyBlog/sitemap.xml
