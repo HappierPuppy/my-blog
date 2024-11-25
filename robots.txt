@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://blog.azhf8.top/sitemap.xml
+Sitemap: https://blog.happierx.top/sitemap.xml
